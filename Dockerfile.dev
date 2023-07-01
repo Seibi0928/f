@@ -1,0 +1,15 @@
+FROM node:16.17.0-bullseye-slim
+EXPOSE 3000
+
+ENV NODE_ENV="development"
+
+RUN apt-get update && apt-get install -y git
+
+WORKDIR /workspace
+
+COPY package.json ./
+COPY package-lock.json ./
+
+RUN npm install
+
+RUN chown -R node node_modules

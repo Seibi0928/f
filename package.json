@@ -1,0 +1,52 @@
+{
+  "name": "effort-visualizer",
+  "version": "0.0.0",
+  "description": "A template to easily start the react tutorial",
+  "main": "server.js",
+  "author": "",
+  "repository": "EffortVisualizer.Frontend",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite serve -m develop",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "14.0.0",
+    "@testing-library/user-event": "14.4.3",
+    "@types/chrome": "0.0.238",
+    "@types/node": "18.15.0",
+    "@types/react-dom": "^18.0.6",
+    "@vitest/coverage-c8": "^0.29.2",
+    "eslint": "^7.4.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "vitest": "0.29.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.2",
+    "@mui/styled-engine-sc": "^5.11.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "css-loader": "^3.6.0",
+    "path": "^0.12.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-router-dom": "^6.4.1",
+    "sass": "^1.26.9",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "styled-components": "^5.3.6",
+    "typescript": "^4.8.3",
+    "vite": "^4.1.4",
+    "vite-plugin-html": "^3.2.0"
+  },
+  "license": "ISC",
+  "optionalDependencies": {
+    "fsevents": "^2.1.3"
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"name": "KinyokuTokei",
+	"service": "app",
+	"dockerComposeFile": "../docker-compose.yml",
+	"workspaceFolder": "/workspace",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"ZixuanChen.vitest-explorer"		
+			],
+			"settings": {
+				"vitest.commandLine": "npm run test"
+			}
+		}
+	},
+	"shutdownAction": "none",
+	"remoteUser": "node"
+}
